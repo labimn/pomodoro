@@ -3,12 +3,12 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAd2v0cKUF5pamWG0KqQafESNMt9eQxRp8",
+  apiKey: "XXXXXXXXXXXXXXXXX",
   authDomain: "timely-pomodoro.firebaseapp.com",
   projectId: "timely-pomodoro",
   storageBucket: "timely-pomodoro.firebasestorage.app",
   messagingSenderId: "907324411708",
-  appId: "1:907324411708:web:ae399bde879908b71e5839"
+  appId: "XXXXXXXXXXXXX"
 };
 
 const app = initializeApp(firebaseConfig);
