@@ -1,0 +1,140 @@
+:root {
+  color-scheme: light;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.analytics-layout {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  color: #111;
+}
+
+.navbar {
+  background-color: #E9C3C3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 5px 16px;
+  width: 100%;
+}
+
+.logo {
+  height: 36px;
+  margin-left: -10px;
+  margin-top: -12px;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.analytics-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.settings-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.nav-icon--active {
+  cursor: pointer;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+
+.nav-icon--active:hover {
+  opacity: 1;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.analytics-header {
+  margin-bottom: 32px;
+}
+
+.analytics-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 0 0 6px 0;
+  color: #111;
+}
+
+.analytics-sub {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
+}
+
+.cards-container {
+  background-color: #E9C3C3;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  min-height: 450px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  flex: 1;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 220px;
+}
+
+.card-label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 12px 0;
+}
+
+.card-value {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #111;
+  margin: 0 0 8px 0;
+  line-height: 1;
+}
+
+.card-desc {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
+  color: #aaa;
+  margin: 0;
+}
