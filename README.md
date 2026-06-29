@@ -24,7 +24,7 @@ Tasks persist per user
 
 Tech Stack
 
-- React + TypeScript
+React + TypeScript
 
 Firebase Authentication
 
@@ -33,26 +33,6 @@ Firebase Firestore
 Vite
 
 CSS
-
-- Project Structure
-
-src/
- ├── App.tsx
- ├── firebase.ts
- ├── main.tsx
- ├── pages/
- │    ├── dashboard.tsx
- │    ├── analytics.tsx
- │    └── signup.tsx
- ├── utils/
- │    ├── stats.ts
- │    ├── todos.ts
- │    └── theme.ts
- ├── assets/
- ├── styles/
- │    ├── dashboard.css
- │    ├── analytics.css
- │    └── signup.css
 
 - Installation
 
