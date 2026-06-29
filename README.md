@@ -40,4 +40,5 @@ npm install
 npm run dev
 
 - Summary
+  
 Timely provides a clean interface for studying with the Pomodoro technique. It includes a timer, tasks, themes, and user‑specific stats, all backed by Firebase.
