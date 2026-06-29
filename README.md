@@ -1,6 +1,7 @@
 Timely is a simple, distraction‑free productivity app built with React, TypeScript, and Firebase. It combines a Pomodoro timer, a to‑do list, user authentication, and basic analytics.
 
 - Features
+  
 Pomodoro Timer
 
 Focus and break cycles
